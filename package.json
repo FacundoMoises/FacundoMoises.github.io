@@ -1,0 +1,16 @@
+{
+  "name": "cv-facundo-moises",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "dev:css": "tailwindcss -i ./tailwind.css -o ./style.css --watch",
+    "build:css": "tailwindcss -i ./tailwind.css -o ./style.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
